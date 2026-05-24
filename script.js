@@ -134,7 +134,7 @@ e:"Dla Sr 1 stosuje się duże światło matowobiałe wstecz w górnej latarni (
 {
 s:"Sygnalizacja kształtowa",
 q:"Co oznacza sygnał Sr 2 na semaforze kształtowym?",
-img:"img/sr2d.jpeg",
+img:"sr2d.jpeg",
 a:[
 "Zakaz jazdy – Stój",
 "Jazda ze zmniejszoną prędkością 40 km/h",
