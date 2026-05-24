@@ -691,29 +691,88 @@ e:"S2 = jedno zielone światło."
 var idx = 0;
 var correct = 0;
 var wrong = 0;
+
 var wrongList = [];
 var shuffled = [];
+
+var answered = []; // zapis odpowiedzi użytkownika
 
 /* ================= SHUFFLE ================= */
 function shuffle(arr){
   var a = arr.slice();
+
   for(var i = a.length - 1; i > 0; i--){
     var j = Math.floor(Math.random() * (i + 1));
+
     var tmp = a[i];
     a[i] = a[j];
     a[j] = tmp;
   }
+
   return a;
 }
 
-/* ================= START ================= */
-document.getElementById('startBtn').onclick = function(){
-  shuffled = shuffle(Q);
+/* ================= SAVE ================= */
+function saveProgress(){
+  localStorage.setItem('quizProgress', JSON.stringify({
+    idx: idx,
+    correct: correct,
+    wrong: wrong,
+    wrongList: wrongList,
+    shuffled: shuffled,
+    answered: answered
+  }));
+}
+
+/* ================= LOAD ================= */
+function loadProgress(){
+  var data = localStorage.getItem('quizProgress');
+
+  if(data){
+    var saved = JSON.parse(data);
+
+    idx = saved.idx || 0;
+    correct = saved.correct || 0;
+    wrong = saved.wrong || 0;
+
+    wrongList = saved.wrongList || [];
+    shuffled = saved.shuffled || [];
+    answered = saved.answered || [];
+
+    return true;
+  }
+
+  return false;
+}
+
+/* ================= RESET ================= */
+function resetQuiz(){
+  localStorage.removeItem('quizProgress');
 
   idx = 0;
   correct = 0;
   wrong = 0;
+
   wrongList = [];
+  shuffled = [];
+  answered = [];
+}
+
+/* ================= START ================= */
+document.getElementById('startBtn').onclick = function(){
+
+  var resumed = loadProgress();
+
+  if(!resumed){
+    shuffled = shuffle(Q);
+
+    idx = 0;
+    correct = 0;
+    wrong = 0;
+
+    wrongList = [];
+    answered = [];
+  }
 
   document.getElementById('start').style.display = 'none';
   document.getElementById('result').style.display = 'none';
@@ -724,13 +783,18 @@ document.getElementById('startBtn').onclick = function(){
 
 /* ================= SHOW QUESTION ================= */
 function showQ(){
+
   var q = shuffled[idx];
 
   var pct = Math.round((idx / shuffled.length) * 100);
+
   document.getElementById('pb').style.width = pct + '%';
-  document.getElementById('pt').textContent = (idx + 1) + ' / ' + shuffled.length;
+
+  document.getElementById('pt').textContent =
+    (idx + 1) + ' / ' + shuffled.length;
 
   document.getElementById('badge').textContent = q.s;
+
   document.getElementById('qtxt').textContent = q.q;
 
   document.getElementById('expl').textContent = '';
@@ -738,39 +802,82 @@ function showQ(){
 
   document.getElementById('nxt').style.display = 'none';
 
-  /* ===== OBRAZEK (NAPRAWIONE) ===== */
+  /* ===== IMAGE ===== */
+
   var img = document.getElementById('qimg');
 
   if(q.img){
-    img.src = q.img;   // działa jeśli plik jest w tym samym folderze
-    img.style.display = "block";
+    img.src = q.img;
+    img.style.display = 'block';
   } else {
-    img.style.display = "none";
+    img.style.display = 'none';
   }
 
+  /* ===== OPTIONS ===== */
+
   var opts = document.getElementById('opts');
+
   opts.innerHTML = '';
 
   for(var i = 0; i < q.a.length; i++){
+
     (function(i){
+
       var btn = document.createElement('button');
+
       btn.className = 'opt';
-      btn.textContent = ['A) ','B) ','C) '][i] + q.a[i];
+
+      btn.textContent =
+        ['A) ','B) ','C) ','D) '][i] + q.a[i];
 
       btn.onclick = function(){
         answer(i);
       };
 
       opts.appendChild(btn);
+
     })(i);
   }
+
+  /* ===== PREVIOUS ANSWER ===== */
+
+  if(answered[idx] !== undefined){
+
+    var btns = opts.querySelectorAll('button');
+
+    for(var k = 0; k < btns.length; k++){
+      btns[k].disabled = true;
+    }
+
+    btns[q.c].classList.add('reveal');
+
+    if(answered[idx] === q.c){
+      btns[q.c].classList.add('correct');
+    } else {
+      btns[answered[idx]].classList.add('wrong');
+
+      document.getElementById('expl').textContent = q.e;
+      document.getElementById('expl').className = 'expl show';
+    }
+  }
+
+  saveProgress();
 }
 
-/* ================= ANSWER (AUTO NEXT) ================= */
+/* ================= ANSWER ================= */
 function answer(chosen){
+
   var q = shuffled[idx];
 
-  var btns = document.getElementById('opts').querySelectorAll('button');
+  if(answered[idx] !== undefined){
+    return;
+  }
+
+  answered[idx] = chosen;
+
+  var btns =
+    document.getElementById('opts')
+    .querySelectorAll('button');
 
   for(var i = 0; i < btns.length; i++){
     btns[i].disabled = true;
@@ -779,10 +886,15 @@ function answer(chosen){
   btns[q.c].classList.add('reveal');
 
   if(chosen === q.c){
+
     btns[chosen].classList.add('correct');
+
     correct++;
+
   } else {
+
     btns[chosen].classList.add('wrong');
+
     wrong++;
 
     wrongList.push({
@@ -792,67 +904,120 @@ function answer(chosen){
     });
 
     document.getElementById('expl').textContent = q.e;
-    document.getElementById('expl').className = 'expl show';
+
+    document.getElementById('expl').className =
+      'expl show';
   }
 
-  document.getElementById('nxt').style.display = 'none';
+  saveProgress();
 
   /* ===== AUTO NEXT ===== */
+
   setTimeout(function(){
+
     idx++;
 
     if(idx >= shuffled.length){
+
       showResult();
+
     } else {
+
       showQ();
     }
+
   }, 2200);
+}
+
+/* ================= PREVIOUS ================= */
+function prevQ(){
+
+  if(idx > 0){
+
+    idx--;
+
+    showQ();
+
+    saveProgress();
+  }
+}
+
+/* ================= NEXT ================= */
+function nextQ(){
+
+  if(idx < shuffled.length - 1){
+
+    idx++;
+
+    showQ();
+
+    saveProgress();
+  }
 }
 
 /* ================= RESULT ================= */
 function showResult(){
+
   document.getElementById('quiz').style.display = 'none';
+
   document.getElementById('result').style.display = 'block';
 
   var total = shuffled.length;
+
   var pct = Math.round((correct / total) * 100);
 
   var circle = document.getElementById('circle');
+
   circle.textContent = pct + '%';
 
   circle.className =
     'circle ' +
     (pct >= 80 ? 'good' :
-     pct >= 50 ? 'ok' : 'bad');
+    pct >= 50 ? 'ok' : 'bad');
 
   document.getElementById('rc').textContent = correct;
   document.getElementById('rw').textContent = wrong;
   document.getElementById('rt').textContent = total;
 
   var wlist = document.getElementById('wlist');
+
   wlist.innerHTML = '';
 
   if(wrongList.length > 0){
+
     var h = document.createElement('h3');
+
     h.textContent = 'Błędy do powtórzenia:';
+
     wlist.appendChild(h);
 
     for(var i = 0; i < wrongList.length; i++){
+
       var d = document.createElement('div');
+
       d.className = 'wi';
 
       d.innerHTML =
         '<strong>' + wrongList[i].q + '</strong>' +
-        '<span class="ca">Poprawna: ' + wrongList[i].ca + '</span>' +
-        '<div class="ex">' + wrongList[i].e + '</div>';
+        '<span class="ca">Poprawna: ' +
+        wrongList[i].ca + '</span>' +
+        '<div class="ex">' +
+        wrongList[i].e +
+        '</div>';
 
       wlist.appendChild(d);
     }
   }
+
+  localStorage.removeItem('quizProgress');
 }
 
 /* ================= BACK ================= */
 document.getElementById('rbtn').onclick = function(){
+
   document.getElementById('result').style.display = 'none';
+
   document.getElementById('start').style.display = 'block';
+
+  resetQuiz();
 };
