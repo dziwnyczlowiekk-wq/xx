@@ -148,14 +148,11 @@ q:"Co oznacza S3 (migające zielone)?",
 img:"s3.jpeg",
 a:[
 "Stój",
-"Jazda z największą dozwoloną prędkością –
-w przodzie są dwa odstępy blokowe wolne – albo przy
-następnym semaforze z prędkością nie większą
-niż 100 km/h",
+"Jazda z największą dozwoloną prędkością w przodzie są dwa odstępy blokowe wolne – albo przy następnym semaforze z prędkością nie większą niż 100 km/h",
 "Manewry"
 ],
 c:1,
-e:"S3 = jazda z ostrzeżeniem."
+e:"S3 = Jazda z największą dozwoloną prędkością w przodzie są dwa odstępy blokowe wolne – albo przy następnym semaforze z prędkością nie większą niż 100 km/h"
 },
 
 {
