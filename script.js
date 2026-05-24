@@ -4,6 +4,7 @@ var Q = [
 
 /* 1 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Czym są rozkazy pisemne?",
 a:[
@@ -17,6 +18,7 @@ e:"Rozkazy pisemne są formalnymi poleceniami wydawanymi maszynistom w formie pi
 
 /* 2 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Dla pociągów poruszających się w jakim systemie stosuje się rozkazy pisemne?",
 a:[
@@ -30,6 +32,7 @@ e:"Rozkazy pisemne stosuje się dla pociągów poruszających się w systemie kl
 
 /* 3 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Dla jakiego systemu stosuje się instrukcje europejskie?",
 a:[
@@ -43,6 +46,7 @@ e:"Instrukcje europejskie stosuje się dla pociągów poruszających się w syst
 
 /* 4 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"W jakich sytuacjach stosuje się rozkazy pisemne i instrukcje europejskie?",
 a:[
@@ -56,6 +60,7 @@ e:"Rozkazy i instrukcje służą między innymi do postępowania w sytuacjach aw
 
 /* 5 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"W jaki sposób mogą być przekazywane rozkazy pisemne?",
 a:[
@@ -69,6 +74,7 @@ e:"Rozkazy mogą być przekazywane fizycznie, elektronicznie albo za pomocą urz
 
 /* 6 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Czym jest Księga Formularzy?",
 a:[
@@ -82,6 +88,7 @@ e:"Księga Formularzy stanowi Dodatek 4 do Instrukcji o prowadzeniu ruchu pocią
 
 /* 7 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"O czym należy zawiadamiać drużyny pociągowe i manewrowe?",
 a:[
@@ -95,6 +102,7 @@ e:"Powiadomienie dotyczy okoliczności mających wpływ na bezpieczeństwo lub p
 
 /* 8 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Kiedy zawiadomienie drużyny pociągowej rozkazem pisemnym może być zbędne?",
 a:[
@@ -108,6 +116,7 @@ e:"Zawiadomienie jest zbędne, jeżeli dane okoliczności zostały wcześniej od
 
 /* 9 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Kiedy nie trzeba dodatkowo zawiadamiać o zmniejszeniu prędkości lub nieplanowanym zatrzymaniu?",
 a:[
@@ -121,6 +130,7 @@ e:"Dodatkowe zawiadomienie jest zbędne, gdy wymagana sytuacja jest prawidłowo 
 
 /* 10 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Które instrukcje określają dodatkowe przypadki wydawania rozkazów na liniach z ERTMS/ETCS?",
 a:[
@@ -134,6 +144,7 @@ e:"Dla poziomu 1 stosuje się Instrukcję Ir-1a, a dla poziomu 2 Instrukcję Ir-
 
 /* 11 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Kiedy rozkaz pisemny może nakazać szczególną ostrożność i zmniejszenie prędkości przy wjeździe?",
 a:[
@@ -147,6 +158,7 @@ e:"Rozkaz może dotyczyć wjazdu na tor częściowo zajęty albo wyjątkowo na t
 
 /* 12 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Czy stan lub rodzaj ładunku może być powodem ograniczenia prędkości w rozkazie pisemnym?",
 a:[
@@ -160,6 +172,7 @@ e:"Stan lub rodzaj ładunku wymagający ograniczenia prędkości może być pods
 
 /* 13 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Która z poniższych okoliczności może wymagać ograniczenia prędkości za pomocą rozkazu pisemnego?",
 a:[
@@ -173,6 +186,7 @@ e:"Stan nawierzchni oraz budowli inżynierskich może wymagać ograniczenia prę
 
 /* 14 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Czy stan urządzeń srk lub sieci trakcyjnej może być przyczyną wydania rozkazu z ograniczeniem prędkości?",
 a:[
@@ -186,6 +200,7 @@ e:"Stan urządzeń sterowania ruchem kolejowym oraz sieci trakcyjnej może wymag
 
 /* 15 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Brak zawiadomienia dróżnika przejazdowego lub przewidzianego regulaminem kierownika robót może skutkować:",
 a:[
@@ -199,6 +214,7 @@ e:"Niezawiadomienie wskazanych pracowników może wymagać wprowadzenia ogranicz
 
 /* 16 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Jakie dodatkowe polecenie może dotyczyć przejazdu z niesprawnymi urządzeniami zabezpieczenia ruchu?",
 a:[
@@ -212,6 +228,7 @@ e:"Przy niedziałających urządzeniach przejazdowych może być wymagana wielok
 
 /* 17 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Co może otrzymać drużyna trakcyjna, jeżeli nie zna obsługiwanego odcinka, którego znajomość jest konieczna?",
 a:[
@@ -225,6 +242,7 @@ e:"Brak wymaganej znajomości odcinka może być podstawą wydania rozkazu z ogr
 
 /* 18 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Na przejechanie obok jakiego semafora wyjazdowego można wydać zezwolenie rozkazem pisemnym?",
 a:[
@@ -238,6 +256,7 @@ e:"Rozkaz pisemny może zezwalać na minięcie semafora wyjazdowego wskazująceg
 
 /* 19 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Co może zawierać rozkaz przy wyjeździe z toru, przy którym nie ma semafora wyjazdowego?",
 a:[
@@ -251,6 +270,7 @@ e:"W takim przypadku rozkaz zawiera zezwolenie na wyjazd oraz numer toru."
 
 /* 20 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Kiedy rozkaz może zezwalać na przejechanie obok semafora wjazdowego wskazującego „Stój”?",
 a:[
@@ -264,6 +284,7 @@ e:"Jeżeli nie można podać sygnału zastępczego Sz, zezwolenie może zostać 
 
 /* 21 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Kiedy w przypadku semafora kształtowego ważny może być sygnał dzienny mimo problemu z sygnałem nocnym?",
 a:[
@@ -277,6 +298,7 @@ e:"W opisanym wyjątku sygnał dzienny może być ważny, jeżeli jednoznacznie 
 
 /* 22 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Czy rozkaz pisemny może zezwalać na jazdę manewrową taboru w kierunku szlaku poza granicę przetaczania?",
 a:[
@@ -290,6 +312,7 @@ e:"Rozkaz może zawierać zezwolenie na jazdę manewrową poza granicę przetacz
 
 /* 23 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Jakie zezwolenie może być wydane dla wjazdu z zamkniętego toru szlakowego bez semafora wjazdowego?",
 a:[
@@ -303,6 +326,7 @@ e:"Rozkaz pisemny może zezwalać na wjazd z zamkniętego toru szlakowego, przy 
 
 /* 24 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Kiedy rozkaz może zezwolić na jazdę pojazdu trakcyjnego znajdującego się za semaforem?",
 a:[
@@ -316,6 +340,7 @@ e:"Rozkaz może zezwolić na jazdę, gdy pojazd znajduje się za semaforem zezwa
 
 /* 25 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Kiedy zatrzymany pociąg skierowany na tor prawy może otrzymać zezwolenie na dalszą jazdę?",
 a:[
@@ -329,6 +354,7 @@ e:"Rozkaz może dotyczyć dalszej jazdy pociągu, którego czoło minęło semaf
 
 /* 26 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Czy rozkaz pisemny może zezwalać na przejechanie obok tarczy zatrzymania D 1 „Stój”?",
 a:[
@@ -342,6 +368,7 @@ e:"Rozkaz pisemny może zawierać zezwolenie na przejechanie obok tarczy zatrzym
 
 /* 27 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Co może otrzymać pociąg zatrzymany za obsługiwanym semaforem, na którym sygnał zezwalający zmienił się na zabraniający jazdy?",
 a:[
@@ -355,6 +382,7 @@ e:"W takiej sytuacji dalsza jazda może zostać dozwolona rozkazem pisemnym."
 
 /* 28 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Czego może dotyczyć rozkaz pisemny w przypadku pojazdu szynowo-drogowego, czyli PSD?",
 a:[
@@ -368,6 +396,7 @@ e:"Rozkaz może zawierać zezwolenie na wstawienie i jazdę pojazdu szynowo-drog
 
 /* 29 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Jakie polecenie może otrzymać pociąg na szlaku jednotorowym, jeżeli jego jazda nie jest przewidziana rozkładem?",
 a:[
@@ -381,6 +410,7 @@ e:"Rozkaz może nakazać jazdę do określonego kilometra, zatrzymanie i powrót
 
 /* 30 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Czy rozkaz pisemny może zawierać polecenie jazdy po zamkniętym torze szlakowym?",
 a:[
@@ -394,6 +424,7 @@ e:"Rozkaz pisemny może zawierać polecenie jazdy po zamkniętym torze szlakowym
 
 /* 31 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Jaką informację należy podać przy poleceniu nieprzewidzianego rozkładem zatrzymania pociągu?",
 a:[
@@ -407,6 +438,7 @@ e:"Przy poleceniu nieplanowanego zatrzymania na posterunku lub szlaku należy po
 
 /* 32 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Jakie polecenie może dotyczyć uszkodzonego obsługiwanego semafora?",
 a:[
@@ -420,6 +452,7 @@ e:"Rozkaz może nakazać zatrzymanie pociągu przed uszkodzonym obsługiwanym se
 
 /* 33 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Jak długo należy zawiadamiać rozkazem o zmianach w wewnętrznym rozkładzie jazdy, takich jak wprowadzenie lub zniesienie postoju?",
 a:[
@@ -433,6 +466,7 @@ e:"O zmianach rozkładowych zawiadamia się rozkazem do czasu ich wprowadzenia w
 
 /* 34 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Jak długo należy informować rozkazem o ustawieniu nowych sygnalizatorów lub zmianie obrazu ich sygnałów ważnych dla pociągu?",
 a:[
@@ -446,6 +480,7 @@ e:"O nowych lub zmienionych sygnalizatorach ważnych dla pociągu powiadamia si�
 
 /* 35 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Kto może wydać informację o odwołaniu ostrzeżenia, polecenia lub informacji z wcześniej dostarczonego rozkazu?",
 a:[
@@ -459,6 +494,7 @@ e:"Odwołanie może wydać dyżurny ruchu właściwego posterunku zapowiadawczeg
 
 /* 36 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Jak długo należy informować drużyny pociągowe o czasowym otwarciu posterunku ruchu?",
 a:[
@@ -472,6 +508,7 @@ e:"Informacja obowiązuje przez okres czasowego otwarcia lub przez 14 dni po odp
 
 /* 37 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Jak długo należy powiadamiać o otwarciu prowizorycznego posterunku odstępowego, bocznicowego lub odgałęźnego?",
 a:[
@@ -485,6 +522,7 @@ e:"O otwarciu prowizorycznego posterunku należy powiadamiać przez cały czas j
 
 /* 38 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"O czym może informować rozkaz w odniesieniu do samoczynnych semaforów odstępowych?",
 a:[
@@ -498,6 +536,7 @@ e:"Rozkaz pisemny może przekazywać informację o unieważnieniu wskazań samoc
 
 /* 39 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Jakiej usterki urządzeń przytorowych może dotyczyć informacja w rozkazie pisemnym?",
 a:[
@@ -511,6 +550,7 @@ e:"Rozkaz może informować o uszkodzeniu przytorowych urządzeń kontroli poci�
 
 /* 40 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Czy drużynę należy poinformować rozkazem o jeździe pociągu w innym kierunku niż przewidziany w wewnętrznym rozkładzie jazdy?",
 a:[
@@ -524,6 +564,7 @@ e:"Informacja o jeździe w innym kierunku niż przewidziany rozkładem może by�
 
 /* 41 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Przez jaki okres należy informować o wjeździe na tor zakończony kozłem oporowym, jeżeli zaszły zmiany w rozkładzie i nie dotyczy to stacji czołowej?",
 a:[
@@ -537,6 +578,7 @@ e:"W opisanym przypadku drużyny pociągowe informuje się przez 14 dni."
 
 /* 42 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Co należy zrobić, jeżeli polecenia, zezwolenia lub informacje dotyczą toru lewego?",
 a:[
@@ -550,6 +592,7 @@ e:"Jeżeli treść rozkazu dotyczy toru lewego, należy to wyraźnie zaznaczyć.
 
 /* 43 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"W jakiej kolejności należy wpisywać ostrzeżenia do rozkazu pisemnego?",
 a:[
@@ -563,6 +606,7 @@ e:"Ostrzeżenia powinny być wpisywane zgodnie z kolejnością miejsc mijanych p
 
 /* 44 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Kto zasadniczo wypełnia i przekazuje maszyniście rozkaz pisemny?",
 a:[
@@ -576,6 +620,7 @@ e:"Rozkaz wypełnia i przekazuje dyżurny ruchu, natomiast maszynista potwierdza
 
 /* 45 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Czy rozkaz pisemny może zostać dostarczony maszyniście za pośrednictwem kierownika pociągu?",
 a:[
@@ -589,6 +634,7 @@ e:"Przepisy dopuszczają dostarczanie rozkazu maszyniście za pośrednictwem kie
 
 /* 46 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Kto powiadamia kolejnych maszynistów o treści rozkazu przy jeździe więcej niż jednego czynnego pojazdu kolejowego?",
 a:[
@@ -602,6 +648,7 @@ e:"Przy kilku czynnych pojazdach kolejowych kolejnych maszynistów powiadamia ma
 
 /* 47 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Co powinien zrobić maszynista z otrzymanym rozkazem pisemnym podczas jazdy?",
 a:[
@@ -615,6 +662,7 @@ e:"Rozkaz powinien pozostawać w widocznym miejscu do czasu zakończenia jazdy d
 
 /* 48 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Co należy zrobić z obowiązującymi rozkazami przy wymianie pojazdu na trasie jazdy pociągu?",
 a:[
@@ -628,6 +676,7 @@ e:"Przy wymianie pojazdu obowiązujące rozkazy należy przekazać maszyniście 
 
 /* 49 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Kiedy przekazanie treści rozkazu przez radio nie wymaga zatrzymania pojazdu?",
 a:[
@@ -641,6 +690,7 @@ e:"Zatrzymanie nie jest wymagane przy dwuosobowej obsadzie i rejestrowaniu przek
 
 /* 50 */
 {
+dzial:"ir-rozkazy",
 s:"Ir-1 §58",
 q:"Gdzie wpisuje się niepowtarzalny identyfikator każdego wydanego rozkazu pisemnego?",
 a:[
@@ -656,6 +706,7 @@ e:"Każdy wydany rozkaz musi posiadać niepowtarzalny identyfikator wpisywany w 
 /* ========== SEMAFORY KSZTAŁTOWE ========== */
 
 {
+dzial:"ie-semafory-ksztaltowe",
 s:"Semafory kształtowe",
 q:"Co oznacza Sr 1?",
 img:"sr1d.jpeg",
@@ -669,6 +720,7 @@ e:"Sr1 oznacza bezwzględny zakaz jazdy."
 },
 
 {
+dzial:"ie-semafory-ksztaltowe",
 s:"Semafory kształtowe",
 q:"Co oznacza Sr 2?",
 img:"sr2d.jpeg",
@@ -682,6 +734,7 @@ e:"Sr2 = wolna droga (największa prędkość)."
 },
 
 {
+dzial:"ie-semafory-ksztaltowe",
 s:"Semafory kształtowe",
 q:"Co oznacza Sr 3?",
 img:"sr3d.jpeg",
@@ -695,6 +748,7 @@ e:"Sr3 = jazda do 40 km/h."
 },
 
 {
+dzial:"ie-semafory-ksztaltowe",
 s:"Semafory kształtowe",
 q:"Jak ustawione jest ramię Sr1?",
 img:"sr1d.jpeg",
@@ -708,6 +762,7 @@ e:"Sr1 = ramię poziomo w prawo."
 },
 
 {
+dzial:"ie-semafory-ksztaltowe",
 s:"Semafory kształtowe",
 q:"Ile ramion ma semafor kształtowy Sr3?",
 img:"sr3d.jpeg",
@@ -723,6 +778,7 @@ e:"Sr3 wykorzystuje dwa ramiona."
 /* ========== SEMAFORY ŚWIETLNE ========== */
 
 {
+dzial:"ie-semafory-swietlne",
 s:"Ie-1 §2",
 q:"Do czego służy semafor świetlny?",
 a:[
@@ -734,6 +790,7 @@ c:0,
 e:"Semafory świetlne służą do przekazywania sygnałów związanych z prowadzeniem ruchu kolejowego."
 },
 {
+dzial:"ie-semafory-swietlne",
 s:"Ie-1 §3",
 q:"W jakiej odległości przed niebezpiecznym miejscem ustawia się semafor wjazdowy?",
 a:[
@@ -745,6 +802,7 @@ c:0,
 e:"Semafor wjazdowy ustawia się w odległości odpowiadającej wymaganej drodze hamowania."
 },
 {
+dzial:"ie-semafory-swietlne",
 s:"Ie-1 §3",
 q:"Co oznacza sygnał S1 na semaforze świetlnym?",
 img:"s1.jpeg",
@@ -757,6 +815,7 @@ c:0,
 e:"Sygnał S1 oznacza bezwzględny zakaz jazdy."
 },
 {
+dzial:"ie-semafory-swietlne",
 s:"Ie-1 §3",
 q:"Co oznacza sygnał S2 na semaforze świetlnym?",
 img:"s2.jpeg",
@@ -769,6 +828,7 @@ c:0,
 e:"S2 zezwala na jazdę z największą dozwoloną prędkością."
 },
 {
+dzial:"ie-semafory-swietlne",
 s:"Ie-1 §3",
 q:"Który sygnał oznacza 'Wolna droga, a następny semafor wskazuje Stój'?",
 a:[
@@ -780,6 +840,7 @@ c:0,
 e:"S3 ostrzega maszynistę, że kolejny semafor wskazuje sygnał S1."
 },
 {
+dzial:"ie-semafory-swietlne",
 s:"Ie-1 §3",
 q:"Co oznacza sygnał S4?",
 img:"s4.jpeg",
@@ -792,6 +853,7 @@ c:0,
 e:"S4 pozwala jechać ze zmniejszoną prędkością określoną w przepisach."
 },
 {
+dzial:"ie-semafory-swietlne",
 s:"Ie-1 §3",
 q:"Jaki kolor światła jest podstawowym sygnałem zakazu jazdy na semaforze świetlnym?",
 a:[
@@ -803,6 +865,7 @@ c:0,
 e:"Światło czerwone oznacza sygnał 'Stój'."
 },
 {
+dzial:"ie-semafory-swietlne",
 s:"Ie-1 §3",
 q:"Co oznacza sygnał Sz?",
 a:[
@@ -814,6 +877,7 @@ c:0,
 e:"Sygnał Sz zezwala na jazdę obok semafora wskazującego S1 na określonych zasadach."
 },
 {
+dzial:"ie-semafory-swietlne",
 s:"Ie-1 §3",
 q:"Jakiego koloru światło wykorzystuje sygnał zastępczy Sz?",
 a:[
@@ -825,6 +889,7 @@ c:0,
 e:"Sygnał zastępczy podawany jest białym migającym światłem."
 },
 {
+dzial:"ie-semafory-swietlne",
 s:"Ie-1 §3",
 q:"Co oznacza sygnał S5?",
 img:"s5.jpeg",
@@ -837,6 +902,7 @@ c:0,
 e:"S5 nakazuje jazdę ze zmniejszoną prędkością i ostrzega o sygnale S1 na następnym semaforze."
 },
 {
+dzial:"ie-semafory-swietlne",
 s:"Ie-1 §3",
 q:"Jakie światło oznacza zwykle wolną drogę na semaforze?",
 a:[
@@ -848,6 +914,7 @@ c:0,
 e:"Światło zielone oznacza zezwolenie na jazdę."
 },
 {
+dzial:"ie-semafory-swietlne",
 s:"Ie-1 §3",
 q:"Co oznacza sygnał S10?",
 img:"s10.jpeg",
@@ -860,6 +927,7 @@ c:0,
 e:"S10 informuje o ograniczeniu prędkości oraz wskazaniu następnego semafora."
 },
 {
+dzial:"ie-semafory-swietlne",
 s:"Ie-1 §3",
 q:"Do czego służy semafor wyjazdowy?",
 a:[
@@ -871,6 +939,7 @@ c:0,
 e:"Semafor wyjazdowy reguluje wyjazd pociągu ze stacji."
 },
 {
+dzial:"ie-semafory-swietlne",
 s:"Ie-1 §3",
 q:"Gdzie ustawia się semafor wyjazdowy?",
 a:[
@@ -882,6 +951,7 @@ c:0,
 e:"Semafor wyjazdowy ustawia się przy końcu drogi przebiegu wyjazdowego."
 },
 {
+dzial:"ie-semafory-swietlne",
 s:"Ie-1 §3",
 q:"Co oznacza sygnał SE?",
 img:"se.jpeg",
@@ -894,6 +964,7 @@ c:0,
 e:"SE odnosi się do prowadzenia ruchu w systemie ERTMS/ETCS."
 },
 {
+dzial:"ie-semafory-swietlne",
 s:"Semafory świetlne",
 q:"Co oznacza S1?",
 img:"s1.jpeg",
@@ -907,6 +978,7 @@ e:"S1 = bezwzględny zakaz jazdy."
 },
 
 {
+dzial:"ie-semafory-swietlne",
 s:"Semafory świetlne",
 q:"Co oznacza S2?",
 img:"s2.jpeg",
@@ -920,6 +992,7 @@ e:"S2 = jazda z największą prędkością."
 },
 
 {
+dzial:"ie-semafory-swietlne",
 s:"Semafory świetlne",
 q:"Co oznacza S3 (migające zielone)?",
 img:"s3.jpeg",
@@ -933,6 +1006,7 @@ e:"S3 = Jazda z największą dozwoloną prędkością w przodzie są dwa odstęp
 },
 
 {
+dzial:"ie-semafory-swietlne",
 s:"Semafory świetlne",
 q:"Co oznacza S5?",
 img:"s5.jpeg",
@@ -946,6 +1020,7 @@ e:"S5 informuje o sygnale Stój na następnym semaforze."
 },
 
 {
+dzial:"ie-semafory-swietlne",
 s:"Semafory świetlne",
 q:"Co oznacza S7?",
 img:"s7.jpeg",
@@ -959,6 +1034,7 @@ e:"S7 = 100 km/h i kolejny 100 km/h."
 },
 
 {
+dzial:"ie-semafory-swietlne",
 s:"Semafory świetlne",
 q:"Co oznacza S9?",
 img:"s9.jpeg",
@@ -972,6 +1048,7 @@ e:"S9 = 100 km/h i następny Stój."
 },
 
 {
+dzial:"ie-semafory-swietlne",
 s:"Semafory świetlne",
 q:"Co oznacza S10?",
 img:"s10.jpeg",
@@ -985,6 +1062,7 @@ e:"S10 = 40 km/h."
 },
 
 {
+dzial:"ie-semafory-swietlne",
 s:"Semafory świetlne",
 q:"Co oznacza S10a?",
 img:"s10a.jpeg",
@@ -998,6 +1076,7 @@ e:"S10a = 60 km/h."
 },
 
 {
+dzial:"ie-semafory-swietlne",
 s:"Semafory świetlne",
 q:"Co oznacza sygnał Sz?",
 img:"sz.jpeg",
@@ -1013,6 +1092,7 @@ e:"Sz = jazda zastępcza."
 /* ========== SYGNALIZATORY POWTARZAJĄCE ========== */
 
 {
+dzial:"ie-powtarzacze",
 s:"Ie-1 §3",
 q:"Do czego służy sygnalizator powtarzający?",
 a:[
@@ -1024,6 +1104,7 @@ c:0,
 e:"Sygnalizator powtarzający uprzedza maszynistę o wskazaniu semafora."
 },
 {
+dzial:"ie-powtarzacze",
 s:"Ie-1 §3",
 q:"Jak oznacza się sygnalizator powtarzający?",
 a:[
@@ -1035,6 +1116,7 @@ c:1,
 e:"Sygnalizatory powtarzające oznacza się skrótem Sp."
 },
 {
+dzial:"ie-powtarzacze",
 s:"Ie-1 §3",
 q:"Kiedy stosuje się sygnalizator powtarzający?",
 a:[
@@ -1046,6 +1128,7 @@ c:1,
 e:"Powtarzacze stosuje się przy niewystarczającej widoczności semafora."
 },
 {
+dzial:"ie-powtarzacze",
 s:"Ie-1 §3",
 q:"Czy sygnalizator powtarzający jest samodzielnym sygnałem zezwalającym na jazdę?",
 a:[
@@ -1057,6 +1140,7 @@ c:2,
 e:"Powtarzacz jedynie informuje o wskazaniu semafora."
 },
 {
+dzial:"ie-powtarzacze",
 s:"Ie-1 §3",
 q:"Co oznacza sygnał Sp1?",
 img:"sp1.jpeg",
@@ -1069,6 +1153,7 @@ c:0,
 e:"Sp1 oznacza, że semafor wskazuje sygnał zabraniający jazdy."
 },
 {
+dzial:"ie-powtarzacze",
 s:"Ie-1 §3",
 q:"Co oznacza sygnał Sp2?",
 img:"sp2.jpeg",
@@ -1081,6 +1166,7 @@ c:0,
 e:"Sp2 oznacza wskazanie semafora zezwalające na jazdę."
 },
 {
+dzial:"ie-powtarzacze",
 s:"Ie-1 §3",
 q:"Co oznacza sygnał Sp3?",
 img:"sp3.jpeg",
@@ -1093,6 +1179,7 @@ c:0,
 e:"Sp3 informuje o jeździe ze zmniejszoną prędkością."
 },
 {
+dzial:"ie-powtarzacze",
 s:"Ie-1 §3",
 q:"Jakie światło stosuje sygnalizator powtarzający?",
 a:[
@@ -1104,6 +1191,7 @@ c:0,
 e:"Sygnalizatory powtarzające wykorzystują światła białe."
 },
 {
+dzial:"ie-powtarzacze",
 s:"Ie-1 §3",
 q:"Jak podawany jest sygnał Sp1?",
 img:"sp1.jpeg",
@@ -1116,6 +1204,7 @@ c:1,
 e:"Sp1 podawany jest jednym białym światłem migającym."
 },
 {
+dzial:"ie-powtarzacze",
 s:"Ie-1 §3",
 q:"Jak podawany jest sygnał Sp2?",
 img:"sp2.jpeg",
@@ -1128,6 +1217,7 @@ c:1,
 e:"Sp2 podawany jest dwoma białymi światłami migającymi."
 },
 {
+dzial:"ie-powtarzacze",
 s:"Ie-1 §3",
 q:"Jak podawany jest sygnał Sp3?",
 img:"sp3.jpeg",
@@ -1140,6 +1230,7 @@ c:1,
 e:"Sp3 podawany jest trzema białymi światłami migającymi."
 },
 {
+dzial:"ie-powtarzacze",
 s:"Ie-1 §3",
 q:"Do którego urządzenia odnosi się sygnalizator powtarzający?",
 a:[
@@ -1151,6 +1242,7 @@ c:0,
 e:"Każdy powtarzacz przypisany jest do określonego semafora."
 },
 {
+dzial:"ie-powtarzacze",
 s:"Ie-1 §3",
 q:"Czy sygnalizator powtarzający zastępuje semafor?",
 a:[
@@ -1162,6 +1254,7 @@ c:2,
 e:"Powtarzacz nie zastępuje semafora i nie daje samodzielnego zezwolenia."
 },
 {
+dzial:"ie-powtarzacze",
 s:"Ie-1 §3",
 q:"Gdzie najczęściej ustawia się sygnalizator powtarzający?",
 a:[
@@ -1173,6 +1266,7 @@ c:0,
 e:"Powtarzacze poprawiają widoczność wskazań semaforów."
 },
 {
+dzial:"ie-powtarzacze",
 s:"Ie-1 §3",
 q:"Jaką funkcję pełni sygnalizator powtarzający?",
 a:[
@@ -1187,6 +1281,7 @@ e:"Powtarzacz przekazuje wcześniej informację o wskazaniu semafora."
 /* ========== TARCZE OSTRZEGAWCZE ========== */
 
 {
+dzial:"ie-tarcze",
 s:"Tarcze ostrzegawcze",
 q:"Co oznacza tarcza On?",
 img:"ond.jpeg",
@@ -1200,6 +1295,7 @@ e:"On informuje o semaforze."
 },
 
 {
+dzial:"ie-tarcze",
 s:"Tarcze ostrzegawcze",
 q:"Co oznacza Ot2?",
 img:"ot2d.jpeg",
@@ -1213,6 +1309,7 @@ e:"Ot2 = wolna droga."
 },
 
 {
+dzial:"ie-tarcze",
 s:"Tarcze ostrzegawcze",
 q:"Co oznacza Od1?",
 img:"od1d.jpeg",
@@ -1228,6 +1325,7 @@ e:"Od1 = Stój."
 /* ========== MANEWRY ========== */
 
 {
+dzial:"ie-manewry",
 s:"Manewry",
 q:"Czy S1 dotyczy manewrów?",
 img:"s1.jpeg",
@@ -1241,6 +1339,7 @@ e:"S1 dotyczy pociągów i manewrów."
 },
 
 {
+dzial:"ie-manewry",
 s:"Manewry",
 q:"Czy można minąć S1 bez pozwolenia?",
 img:"s1.jpeg",
@@ -1256,6 +1355,7 @@ e:"Wymagane pozwolenie."
 /* ========== DODATKOWE ========== */
 
 {
+dzial:"dodatkowe",
 s:"Ruch kolejowy",
 q:"Kto wydaje zgodę na jazdę pociągu?",
 a:[
@@ -1268,6 +1368,7 @@ e:"Zgodę wydaje dyżurny ruchu."
 },
 
 {
+dzial:"dodatkowe",
 s:"Bezpieczeństwo",
 q:"Co oznacza zatrzymanie przed S1?",
 img:"s1.jpeg",
@@ -1281,6 +1382,7 @@ e:"S1 = zakaz jazdy."
 },
 
 {
+dzial:"dodatkowe",
 s:"Semafory",
 q:"Ile świateł ma S2?",
 img:"s2.jpeg",
@@ -1294,22 +1396,38 @@ e:"S2 = jedno zielone światło."
 }
 ];
 
+/* =====================================================
+   KONFIGURACJA I STAN QUIZU
+   ===================================================== */
+
 var idx = 0;
 var correct = 0;
 var wrong = 0;
-
 var wrongList = [];
 var shuffled = [];
+var answered = [];
 
-var answered = []; // zapis odpowiedzi użytkownika
+var selectedMode = "category";
+var selectedCategory = "all";
 
-/* ================= SHUFFLE ================= */
+var categoryNames = {
+  "all": "Wszystkie działy",
+  "ir-rozkazy": "Ir-1 — Rozkazy pisemne",
+  "ie-semafory-ksztaltowe": "Ie-1 — Semafory kształtowe",
+  "ie-semafory-swietlne": "Ie-1 — Semafory świetlne",
+  "ie-powtarzacze": "Ie-1 — Sygnalizatory powtarzające",
+  "ie-tarcze": "Ie-1 — Tarcze ostrzegawcze",
+  "ie-manewry": "Ie-1 — Manewry",
+  "dodatkowe": "Pozostałe — ruch i bezpieczeństwo"
+};
+
+/* ================= LOSOWANIE ================= */
+
 function shuffle(arr){
   var a = arr.slice();
 
   for(var i = a.length - 1; i > 0; i--){
     var j = Math.floor(Math.random() * (i + 1));
-
     var tmp = a[i];
     a[i] = a[j];
     a[j] = tmp;
@@ -1318,9 +1436,100 @@ function shuffle(arr){
   return a;
 }
 
-/* ================= SAVE ================= */
+/* ================= PULA PYTAŃ ================= */
+
+function getQuestionsForSelection(){
+  if(selectedMode === "random100"){
+    return shuffle(Q).slice(0, Math.min(100, Q.length));
+  }
+
+  if(selectedCategory === "all"){
+    return shuffle(Q);
+  }
+
+  return shuffle(Q.filter(function(question){
+    return question.dzial === selectedCategory;
+  }));
+}
+
+function countCategory(category){
+  if(category === "all"){
+    return Q.length;
+  }
+
+  return Q.filter(function(question){
+    return question.dzial === category;
+  }).length;
+}
+
+function updateCounts(){
+  var buttons = document.querySelectorAll(".category-btn");
+
+  for(var i = 0; i < buttons.length; i++){
+    var category = buttons[i].getAttribute("data-category");
+    var countEl = buttons[i].querySelector(".category-count");
+
+    if(countEl){
+      countEl.textContent = countCategory(category) + " pytań";
+    }
+  }
+
+  document.getElementById("totalCount").textContent = Q.length;
+  document.getElementById("randomCount").textContent =
+    Math.min(100, Q.length);
+}
+
+/* ================= WYBÓR TRYBU ================= */
+
+function setMode(mode){
+  selectedMode = mode;
+
+  var standardBtn = document.getElementById("standardModeBtn");
+  var randomBtn = document.getElementById("random100ModeBtn");
+  var categories = document.getElementById("categoriesPanel");
+  var choiceText = document.getElementById("selectedTest");
+
+  standardBtn.classList.toggle("active", mode === "category");
+  randomBtn.classList.toggle("active", mode === "random100");
+
+  if(mode === "random100"){
+    categories.classList.add("disabled-panel");
+    choiceText.textContent =
+      "Losowy test 100 pytań ze wszystkich działów";
+  } else {
+    categories.classList.remove("disabled-panel");
+    choiceText.textContent =
+      categoryNames[selectedCategory] + " — " +
+      countCategory(selectedCategory) + " pytań";
+  }
+}
+
+function setCategory(category){
+  selectedCategory = category;
+  selectedMode = "category";
+
+  var buttons = document.querySelectorAll(".category-btn");
+
+  for(var i = 0; i < buttons.length; i++){
+    buttons[i].classList.toggle(
+      "active",
+      buttons[i].getAttribute("data-category") === category
+    );
+  }
+
+  setMode("category");
+}
+
+/* ================= ZAPIS POSTĘPU ================= */
+
 function saveProgress(){
-  localStorage.setItem('quizProgress', JSON.stringify({
+  if(shuffled.length === 0){
+    return;
+  }
+
+  localStorage.setItem("quizProgress", JSON.stringify({
+    selectedMode: selectedMode,
+    selectedCategory: selectedCategory,
     idx: idx,
     correct: correct,
     wrong: wrong,
@@ -1328,302 +1537,389 @@ function saveProgress(){
     shuffled: shuffled,
     answered: answered
   }));
+
+  updateResumePanel();
 }
 
-/* ================= LOAD ================= */
 function loadProgress(){
-  var data = localStorage.getItem('quizProgress');
+  var data = localStorage.getItem("quizProgress");
 
-  if(data){
+  if(!data){
+    return false;
+  }
+
+  try {
     var saved = JSON.parse(data);
 
-    idx = saved.idx || 0;
-    correct = saved.correct || 0;
-    wrong = saved.wrong || 0;
+    if(!saved.shuffled || saved.shuffled.length === 0){
+      return false;
+    }
 
+    selectedMode = saved.selectedMode || "category";
+    selectedCategory = saved.selectedCategory || "all";
+    idx = Number(saved.idx) || 0;
+    correct = Number(saved.correct) || 0;
+    wrong = Number(saved.wrong) || 0;
     wrongList = saved.wrongList || [];
     shuffled = saved.shuffled || [];
     answered = saved.answered || [];
 
-    return true;
-  }
+    if(idx >= shuffled.length){
+      idx = shuffled.length - 1;
+    }
 
-  return false;
+    return true;
+  } catch(error){
+    localStorage.removeItem("quizProgress");
+    return false;
+  }
 }
 
-/* ================= RESET ================= */
 function resetQuiz(){
-  localStorage.removeItem('quizProgress');
+  localStorage.removeItem("quizProgress");
+  idx = 0;
+  correct = 0;
+  wrong = 0;
+  wrongList = [];
+  shuffled = [];
+  answered = [];
+  updateResumePanel();
+}
+
+function updateResumePanel(){
+  var panel = document.getElementById("resumePanel");
+  var data = localStorage.getItem("quizProgress");
+
+  if(!data){
+    panel.style.display = "none";
+    return;
+  }
+
+  try {
+    var saved = JSON.parse(data);
+
+    if(!saved.shuffled || saved.shuffled.length === 0){
+      panel.style.display = "none";
+      return;
+    }
+
+    var completed = (saved.answered || []).filter(function(answer){
+      return answer !== null && answer !== undefined;
+    }).length;
+
+    document.getElementById("resumeInfo").textContent =
+      "Udzielono odpowiedzi: " + completed + " / " + saved.shuffled.length;
+
+    panel.style.display = "block";
+  } catch(error){
+    panel.style.display = "none";
+  }
+}
+
+/* ================= URUCHOMIENIE TESTU ================= */
+
+function beginQuiz(){
+  document.getElementById("start").style.display = "none";
+  document.getElementById("result").style.display = "none";
+  document.getElementById("quiz").style.display = "block";
+  showQ();
+}
+
+document.getElementById("startBtn").onclick = function(){
+  resetQuiz();
+
+  shuffled = getQuestionsForSelection();
+
+  if(shuffled.length === 0){
+    alert("W wybranym dziale nie ma pytań.");
+    return;
+  }
 
   idx = 0;
   correct = 0;
   wrong = 0;
-
   wrongList = [];
-  shuffled = [];
   answered = [];
-}
 
-/* ================= START ================= */
-document.getElementById('startBtn').onclick = function(){
-
-  var resumed = loadProgress();
-
-  if(!resumed){
-    shuffled = shuffle(Q);
-
-    idx = 0;
-    correct = 0;
-    wrong = 0;
-
-    wrongList = [];
-    answered = [];
-  }
-
-  document.getElementById('start').style.display = 'none';
-  document.getElementById('result').style.display = 'none';
-  document.getElementById('quiz').style.display = 'block';
-
-  showQ();
+  beginQuiz();
 };
 
-/* ================= SHOW QUESTION ================= */
-function showQ(){
+document.getElementById("resumeBtn").onclick = function(){
+  if(loadProgress()){
+    beginQuiz();
+  }
+};
 
+document.getElementById("discardBtn").onclick = function(){
+  resetQuiz();
+};
+
+/* ================= WYŚWIETLANIE PYTANIA ================= */
+
+function showQ(){
   var q = shuffled[idx];
 
-  var pct = Math.round((idx / shuffled.length) * 100);
-
-  document.getElementById('pb').style.width = pct + '%';
-
-  document.getElementById('pt').textContent =
-    (idx + 1) + ' / ' + shuffled.length;
-
-  document.getElementById('badge').textContent = q.s;
-
-  document.getElementById('qtxt').textContent = q.q;
-
-  document.getElementById('expl').textContent = '';
-  document.getElementById('expl').className = 'expl';
-
-  document.getElementById('nxt').style.display = 'none';
-
-  /* ===== IMAGE ===== */
-
-  var img = document.getElementById('qimg');
-
-  if(q.img){
-    img.src = q.img;
-    img.style.display = 'block';
-  } else {
-    img.style.display = 'none';
+  if(!q){
+    showResult();
+    return;
   }
 
-  /* ===== OPTIONS ===== */
+  var answeredCount = answered.filter(function(answer){
+    return answer !== undefined && answer !== null;
+  }).length;
 
-  var opts = document.getElementById('opts');
+  var pct = Math.round((answeredCount / shuffled.length) * 100);
 
-  opts.innerHTML = '';
+  document.getElementById("pb").style.width = pct + "%";
+  document.getElementById("pt").textContent =
+    (idx + 1) + " / " + shuffled.length +
+    "  •  odpowiedzi: " + answeredCount;
 
-  for(var i = 0; i < q.a.length; i++){
+  document.getElementById("badge").textContent =
+    categoryNames[q.dzial] || q.s;
 
-    (function(i){
+  document.getElementById("qtxt").textContent = q.q;
 
-      var btn = document.createElement('button');
+  document.getElementById("expl").textContent = "";
+  document.getElementById("expl").className = "expl";
 
-      btn.className = 'opt';
-
-      btn.textContent =
-        ['A) ','B) ','C) ','D) '][i] + q.a[i];
-
-      btn.onclick = function(){
-        answer(i);
-      };
-
-      opts.appendChild(btn);
-
-    })(i);
-  }
-
-  /* ===== PREVIOUS ANSWER ===== */
-
-  if(answered[idx] !== undefined){
-
-    var btns = opts.querySelectorAll('button');
-
-    for(var k = 0; k < btns.length; k++){
-      btns[k].disabled = true;
-    }
-
-    btns[q.c].classList.add('reveal');
-
-    if(answered[idx] === q.c){
-      btns[q.c].classList.add('correct');
-    } else {
-      btns[answered[idx]].classList.add('wrong');
-
-      document.getElementById('expl').textContent = q.e;
-      document.getElementById('expl').className = 'expl show';
-    }
-  }
+  showQuestionImage(q);
+  showOptions(q);
+  updateNavigation();
 
   saveProgress();
 }
 
-/* ================= ANSWER ================= */
-function answer(chosen){
+function showQuestionImage(q){
+  var img = document.getElementById("qimg");
+  var imgbox = document.getElementById("imgbox");
+  var emptyText = document.getElementById("emptyImageText");
 
-  var q = shuffled[idx];
+  img.onerror = null;
+  img.style.visibility = "hidden";
+  img.removeAttribute("src");
+  imgbox.classList.add("empty");
 
-  if(answered[idx] !== undefined){
-    return;
+  if(q.img){
+    emptyText.textContent = "Nie znaleziono pliku obrazu: " + q.img;
+    img.alt = "Ilustracja do pytania";
+    img.onerror = function(){
+      img.style.visibility = "hidden";
+      imgbox.classList.add("empty");
+    };
+    img.onload = function(){
+      imgbox.classList.remove("empty");
+      img.style.visibility = "visible";
+    };
+    img.src = q.img;
+  } else {
+    emptyText.textContent = "Pytanie bez ilustracji";
+  }
+}
+
+function showOptions(q){
+  var opts = document.getElementById("opts");
+  opts.innerHTML = "";
+
+  for(var i = 0; i < q.a.length; i++){
+    (function(optionIndex){
+      var btn = document.createElement("button");
+      btn.className = "opt";
+      btn.type = "button";
+      btn.textContent =
+        ["A) ", "B) ", "C) ", "D) "][optionIndex] + q.a[optionIndex];
+
+      btn.onclick = function(){
+        answer(optionIndex);
+      };
+
+      opts.appendChild(btn);
+    })(i);
   }
 
-  answered[idx] = chosen;
+  if(answered[idx] !== undefined && answered[idx] !== null){
+    restoreAnsweredQuestion(q);
+  }
+}
 
-  var btns =
-    document.getElementById('opts')
-    .querySelectorAll('button');
+function restoreAnsweredQuestion(q){
+  var btns = document.getElementById("opts").querySelectorAll("button");
 
   for(var i = 0; i < btns.length; i++){
     btns[i].disabled = true;
   }
 
-  btns[q.c].classList.add('reveal');
+  btns[q.c].classList.add("reveal");
+
+  if(answered[idx] === q.c){
+    btns[q.c].classList.add("correct");
+  } else {
+    btns[answered[idx]].classList.add("wrong");
+    document.getElementById("expl").textContent = q.e;
+    document.getElementById("expl").className = "expl show";
+  }
+}
+
+/* ================= ODPOWIEDŹ ================= */
+
+function answer(chosen){
+  var q = shuffled[idx];
+
+  if(answered[idx] !== undefined && answered[idx] !== null){
+    return;
+  }
+
+  answered[idx] = chosen;
+
+  var btns = document.getElementById("opts").querySelectorAll("button");
+
+  for(var i = 0; i < btns.length; i++){
+    btns[i].disabled = true;
+  }
+
+  btns[q.c].classList.add("reveal");
 
   if(chosen === q.c){
-
-    btns[chosen].classList.add('correct');
-
+    btns[chosen].classList.add("correct");
     correct++;
-
   } else {
-
-    btns[chosen].classList.add('wrong');
-
+    btns[chosen].classList.add("wrong");
     wrong++;
 
     wrongList.push({
       q: q.q,
       ca: q.a[q.c],
-      e: q.e
+      e: q.e,
+      idx: idx
     });
 
-    document.getElementById('expl').textContent = q.e;
-
-    document.getElementById('expl').className =
-      'expl show';
+    document.getElementById("expl").textContent = q.e;
+    document.getElementById("expl").className = "expl show";
   }
 
+  updateNavigation();
   saveProgress();
-
-  /* ===== AUTO NEXT ===== */
-
-  setTimeout(function(){
-
-    idx++;
-
-    if(idx >= shuffled.length){
-
-      showResult();
-
-    } else {
-
-      showQ();
-    }
-
-  }, 2200);
 }
 
-/* ================= PREVIOUS ================= */
+/* ================= NAWIGACJA ================= */
+
+function updateNavigation(){
+  var prevBtn = document.getElementById("prevBtn");
+  var nextBtn = document.getElementById("nextBtn");
+  var hasAnswer = answered[idx] !== undefined && answered[idx] !== null;
+  var isLast = idx === shuffled.length - 1;
+
+  prevBtn.disabled = idx === 0;
+  nextBtn.disabled = !hasAnswer;
+  nextBtn.textContent = isLast ? "Zakończ test ✓" : "Następne →";
+}
+
 function prevQ(){
-
   if(idx > 0){
-
     idx--;
-
     showQ();
-
-    saveProgress();
   }
 }
 
-/* ================= NEXT ================= */
 function nextQ(){
+  if(answered[idx] === undefined || answered[idx] === null){
+    return;
+  }
 
   if(idx < shuffled.length - 1){
-
     idx++;
-
     showQ();
-
-    saveProgress();
+  } else {
+    showResult();
   }
 }
 
-/* ================= RESULT ================= */
+document.getElementById("prevBtn").onclick = prevQ;
+document.getElementById("nextBtn").onclick = nextQ;
+
+/* ================= WYNIK ================= */
+
 function showResult(){
-
-  document.getElementById('quiz').style.display = 'none';
-
-  document.getElementById('result').style.display = 'block';
+  document.getElementById("quiz").style.display = "none";
+  document.getElementById("result").style.display = "block";
 
   var total = shuffled.length;
+  var pct = total ? Math.round((correct / total) * 100) : 0;
+  var circle = document.getElementById("circle");
 
-  var pct = Math.round((correct / total) * 100);
-
-  var circle = document.getElementById('circle');
-
-  circle.textContent = pct + '%';
-
+  circle.textContent = pct + "%";
   circle.className =
-    'circle ' +
-    (pct >= 80 ? 'good' :
-    pct >= 50 ? 'ok' : 'bad');
+    "circle " + (pct >= 80 ? "good" : pct >= 50 ? "ok" : "bad");
 
-  document.getElementById('rc').textContent = correct;
-  document.getElementById('rw').textContent = wrong;
-  document.getElementById('rt').textContent = total;
+  document.getElementById("rc").textContent = correct;
+  document.getElementById("rw").textContent = wrong;
+  document.getElementById("rt").textContent = total;
 
-  var wlist = document.getElementById('wlist');
-
-  wlist.innerHTML = '';
+  var wlist = document.getElementById("wlist");
+  wlist.innerHTML = "";
 
   if(wrongList.length > 0){
-
-    var h = document.createElement('h3');
-
-    h.textContent = 'Błędy do powtórzenia:';
-
+    var h = document.createElement("h3");
+    h.textContent = "Błędy do powtórzenia:";
     wlist.appendChild(h);
 
     for(var i = 0; i < wrongList.length; i++){
+      var d = document.createElement("div");
+      d.className = "wi";
 
-      var d = document.createElement('div');
+      var strong = document.createElement("strong");
+      strong.textContent = wrongList[i].q;
 
-      d.className = 'wi';
+      var answer = document.createElement("span");
+      answer.className = "ca";
+      answer.textContent = "Poprawna: " + wrongList[i].ca;
 
-      d.innerHTML =
-        '<strong>' + wrongList[i].q + '</strong>' +
-        '<span class="ca">Poprawna: ' +
-        wrongList[i].ca + '</span>' +
-        '<div class="ex">' +
-        wrongList[i].e +
-        '</div>';
+      var explanation = document.createElement("div");
+      explanation.className = "ex";
+      explanation.textContent = wrongList[i].e;
 
+      d.appendChild(strong);
+      d.appendChild(answer);
+      d.appendChild(explanation);
       wlist.appendChild(d);
     }
+  } else {
+    var perfect = document.createElement("p");
+    perfect.className = "perfect";
+    perfect.textContent = "Brawo! Wszystkie odpowiedzi są poprawne.";
+    wlist.appendChild(perfect);
   }
 
-  localStorage.removeItem('quizProgress');
+  localStorage.removeItem("quizProgress");
+  updateResumePanel();
 }
 
-/* ================= BACK ================= */
-document.getElementById('rbtn').onclick = function(){
+/* ================= POWRÓT ================= */
 
-  document.getElementById('result').style.display = 'none';
-
-  document.getElementById('start').style.display = 'block';
-
+document.getElementById("rbtn").onclick = function(){
+  document.getElementById("result").style.display = "none";
+  document.getElementById("start").style.display = "block";
   resetQuiz();
 };
+
+/* ================= INICJALIZACJA ================= */
+
+document.getElementById("standardModeBtn").onclick = function(){
+  setMode("category");
+};
+
+document.getElementById("random100ModeBtn").onclick = function(){
+  setMode("random100");
+};
+
+var categoryButtons = document.querySelectorAll(".category-btn");
+
+for(var c = 0; c < categoryButtons.length; c++){
+  categoryButtons[c].onclick = function(){
+    setCategory(this.getAttribute("data-category"));
+  };
+}
+
+updateCounts();
+setCategory("all");
+updateResumePanel();
