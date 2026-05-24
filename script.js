@@ -1,28 +1,330 @@
 var Q = [
-  {
-    s: "Ir-1 §3",
-    q: "Które z poniższych zalicza się do posterunków ruchu?",
-    a: [
-      "Stacje, mijanki, posterunki odgałęźne, odstępowe i bocznicowe",
-      "Wyłącznie stacje i mijanki",
-      "Wyłącznie posterunki odgałęźne i bocznice"
-    ],
-    c: 0,
-    e: "Posterunki ruchu to: stacje, mijanki, posterunki odgałęźne, bocznicowe, odstępowe i blokowe."
-  },
+{
+s:"Ir-1 §3",
+q:"Które z poniższych zalicza się do posterunków ruchu?",
+a:[
+"Stacje, mijanki, posterunki odgałęźne, odstępowe i bocznicowe",
+"Wyłącznie stacje i mijanki",
+"Wyłącznie bocznice"
+],
+c:0,
+e:"Posterunki ruchu to m.in. stacje, mijanki i posterunki odgałęźne."
+},
 
-  {
-    s: "Sygnalizacja kształtowa",
-    q: "Co oznacza sygnał Sr 2?",
-    img: "sr2d.jpeg", // 🔥 bez folderu img/
-    a: [
-      "Stój",
-      "Jazda 40 km/h",
-      "Wolna droga – największa prędkość"
-    ],
-    c: 2,
-    e: "Sr 2 oznacza wolną drogę."
-  }
+{
+s:"Ir-1 §3",
+q:"Czym jest mijanka?",
+a:[
+"Posterunek na linii jednotorowej umożliwiający wymijanie pociągów",
+"Posterunek zmiany kierunku jazdy",
+"Tor postojowy"
+],
+c:0,
+e:"Mijanka umożliwia wymijanie pociągów na linii jednotorowej."
+},
+
+{
+s:"Ir-1 §3",
+q:"Co to jest szlak kolejowy?",
+a:[
+"Odcinek między dwoma posterunkami zapowiadawczymi",
+"Odcinek między semaforami",
+"Cała linia kolejowa"
+],
+c:0,
+e:"Szlak to odcinek między posterunkami zapowiadawczymi."
+},
+
+{
+s:"Ir-1 §4",
+q:"Kto koordynuje ruch na danym terenie?",
+a:[
+"Dyżurny ruchu",
+"Maszynista",
+"Kierownik pociągu"
+],
+c:0,
+e:"Dyżurny ruchu koordynuje ruch kolejowy."
+},
+
+/* ========== SEMAFORY KSZTAŁTOWE ========== */
+
+{
+s:"Semafory kształtowe",
+q:"Co oznacza Sr 1?",
+img:"sr1d.jpeg",
+a:[
+"Stój",
+"Wolna droga",
+"40 km/h"
+],
+c:0,
+e:"Sr1 oznacza bezwzględny zakaz jazdy."
+},
+
+{
+s:"Semafory kształtowe",
+q:"Co oznacza Sr 2?",
+img:"sr2d.jpeg",
+a:[
+"Stój",
+"Wolna droga",
+"Ostrożnie"
+],
+c:1,
+e:"Sr2 = wolna droga (największa prędkość)."
+},
+
+{
+s:"Semafory kształtowe",
+q:"Co oznacza Sr 3?",
+img:"sr3d.jpeg,
+a:[
+"Stój",
+"Jazda do 40 km/h",
+"Jazda bez ograniczeń"
+],
+c:1,
+e:"Sr3 = jazda do 40 km/h."
+},
+
+{
+s:"Semafory kształtowe",
+q:"Jak ustawione jest ramię Sr1?",
+img:"sr1d.jpeg,
+a:[
+"Poziomo w prawo",
+"45° w górę",
+"Poziomo w lewo"
+],
+c:0,
+e:"Sr1 = ramię poziomo w prawo."
+},
+
+{
+s:"Semafory kształtowe",
+q:"Ile ramion ma semafor kształtowy Sr3?",
+img:"sr3d.jpeg,
+a:[
+"Jedno",
+"Dwa",
+"Trzy"
+],
+c:1,
+e:"Sr3 wykorzystuje dwa ramiona."
+},
+
+/* ========== SEMAFORY ŚWIETLNE ========== */
+
+{
+s:"Semafory świetlne",
+q:"Co oznacza S1?",
+a:[
+"Stój",
+"Jazda",
+"100 km/h"
+],
+c:0,
+e:"S1 = bezwzględny zakaz jazdy."
+},
+
+{
+s:"Semafory świetlne",
+q:"Co oznacza S2?",
+a:[
+"Stój",
+"Jazda z największą prędkością",
+"40 km/h"
+],
+c:1,
+e:"S2 = jazda z największą prędkością."
+},
+
+{
+s:"Semafory świetlne",
+q:"Co oznacza S3 (migające zielone)?",
+a:[
+"Stój",
+"Ostrzeżenie + jazda",
+"Manewry"
+],
+c:1,
+e:"S3 = jazda z ostrzeżeniem."
+},
+
+{
+s:"Semafory świetlne",
+q:"Co oznacza S5?",
+a:[
+"Stój na następnym",
+"100 km/h",
+"Brak sygnału"
+],
+c:0,
+e:"S5 informuje o sygnale Stój na następnym semaforze."
+},
+
+{
+s:"Semafory świetlne",
+q:"Co oznacza S7?",
+a:[
+"100 km/h i kolejny 100",
+"Stój",
+"40 km/h"
+],
+c:0,
+e:"S7 = 100 km/h i kolejny 100 km/h."
+},
+
+{
+s:"Semafory świetlne",
+q:"Co oznacza S9?",
+a:[
+"100 km/h i Stój",
+"200 km/h",
+"40 km/h"
+],
+c:0,
+e:"S9 = 100 km/h i następny Stój."
+},
+
+{
+s:"Semafory świetlne",
+q:"Co oznacza S10?",
+a:[
+"40 km/h",
+"60 km/h",
+"100 km/h"
+],
+c:0,
+e:"S10 = 40 km/h."
+},
+
+{
+s:"Semafory świetlne",
+q:"Co oznacza S10a?",
+a:[
+"40 km/h",
+"60 km/h",
+"80 km/h"
+],
+c:1,
+e:"S10a = 60 km/h."
+},
+
+{
+s:"Semafory świetlne",
+q:"Co oznacza sygnał Sz?",
+a:[
+"Stój",
+"Jazda do 40 km/h bez rozkazu",
+"Awaria"
+],
+c:1,
+e:"Sz = jazda zastępcza."
+},
+
+/* ========== TARCZE OSTRZEGAWCZE ========== */
+
+{
+s:"Tarcze ostrzegawcze",
+q:"Co oznacza tarcza On?",
+a:[
+"Semafor w odległości hamowania",
+"Stój",
+"40 km/h"
+],
+c:0,
+e:"On informuje o semaforze."
+},
+
+{
+s:"Tarcze ostrzegawcze",
+q:"Co oznacza Ot2?",
+a:[
+"Stój",
+"Wolna droga",
+"Awaria"
+],
+c:1,
+e:"Ot2 = wolna droga."
+},
+
+{
+s:"Tarcze ostrzegawcze",
+q:"Co oznacza Od1?",
+a:[
+"Stój",
+"Jazda",
+"Brak sygnału"
+],
+c:0,
+e:"Od1 = Stój."
+},
+
+/* ========== MANEWRY ========== */
+
+{
+s:"Manewry",
+q:"Czy S1 dotyczy manewrów?",
+a:[
+"Tak",
+"Nie",
+"Tylko nocą"
+],
+c:0,
+e:"S1 dotyczy pociągów i manewrów."
+},
+
+{
+s:"Manewry",
+q:"Czy można minąć S1 bez pozwolenia?",
+a:[
+"Tak zawsze",
+"Tylko z pozwoleniem",
+"Zawsze"
+],
+c:1,
+e:"Wymagane pozwolenie."
+},
+
+/* ========== DODATKOWE ========== */
+
+{
+s:"Ruch kolejowy",
+q:"Kto wydaje zgodę na jazdę pociągu?",
+a:[
+"Dyżurny ruchu",
+"Maszynista",
+"Dróżnik"
+],
+c:0,
+e:"Zgodę wydaje dyżurny ruchu."
+},
+
+{
+s:"Bezpieczeństwo",
+q:"Co oznacza zatrzymanie przed S1?",
+a:[
+"Bezwzględny zakaz jazdy",
+"Można jechać",
+"Manewr"
+],
+c:0,
+e:"S1 = zakaz jazdy."
+},
+
+{
+s:"Semafory",
+q:"Ile świateł ma S2?",
+a:[
+"1 zielone",
+"2 czerwone",
+"3 białe"
+],
+c:0,
+e:"S2 = jedno zielone światło."
+}
 ];
 
 var idx = 0;
