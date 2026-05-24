@@ -316,3 +316,15 @@ button.rbtn:hover{
   border-radius:12px;
   border:2px solid #0f3460;
 }
+.navBtns{
+  display:flex;
+  gap:10px;
+  margin-top:20px;
+}
+
+.navBtns button{
+  padding:10px 16px;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+}
