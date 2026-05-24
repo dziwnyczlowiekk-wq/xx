@@ -8,26 +8,93 @@
 </head>
 <body>
 
-    <div class="imgbox">
-    <img id="qimg" src="" alt="" />
-    </div>
-  
 <div class="box">
 
   <div id="start">
     <h1>Test kolejowy</h1>
     <p class="sub">Instrukcje Ir-1 oraz Ie-1 &mdash; PKP PLK S.A.</p>
 
-    <h2>Gotowy na test?</h2>
-
+    <h2>Przygotuj swój test</h2>
     <p>
-      Test zawiera pytania z zakresu instrukcji
-      <strong>Ir-1</strong> i <strong>Ie-1</strong>.<br />
-      Przy błędnej odpowiedzi zobaczysz wyjaśnienie.
-      Na końcu otrzymasz wynik. 
+      Wybierz pojedynczy dział albo przygotuj losowy test
+      ze wszystkich dostępnych zagadnień.
     </p>
 
-    <button class="sbtn" id="startBtn">Rozpocznij test</button>
+    <div class="mode-grid" aria-label="Tryb testu">
+      <button type="button" class="mode-card active" id="standardModeBtn">
+        <span class="mode-title">Test z wybranego działu</span>
+        <span class="mode-desc">Wybierz kategorię poniżej</span>
+      </button>
+
+      <button type="button" class="mode-card featured" id="random100ModeBtn">
+        <span class="mode-title">Test 100 pytań</span>
+        <span class="mode-desc">
+          Losowo ze wszystkich działów — <strong id="randomCount">100</strong> pytań
+        </span>
+      </button>
+    </div>
+
+    <div id="categoriesPanel" class="categories-panel">
+      <h3>Wybierz dział</h3>
+
+      <div class="categories">
+        <button type="button" class="category-btn active" data-category="all">
+          <span>Wszystkie działy</span>
+          <small class="category-count"></small>
+        </button>
+
+        <button type="button" class="category-btn" data-category="ir-rozkazy">
+          <span>Ir-1 — Rozkazy pisemne</span>
+          <small class="category-count"></small>
+        </button>
+
+        <button type="button" class="category-btn" data-category="ie-semafory-ksztaltowe">
+          <span>Ie-1 — Semafory kształtowe</span>
+          <small class="category-count"></small>
+        </button>
+
+        <button type="button" class="category-btn" data-category="ie-semafory-swietlne">
+          <span>Ie-1 — Semafory świetlne</span>
+          <small class="category-count"></small>
+        </button>
+
+        <button type="button" class="category-btn" data-category="ie-powtarzacze">
+          <span>Ie-1 — Sygnalizatory powtarzające</span>
+          <small class="category-count"></small>
+        </button>
+
+        <button type="button" class="category-btn" data-category="ie-tarcze">
+          <span>Ie-1 — Tarcze ostrzegawcze</span>
+          <small class="category-count"></small>
+        </button>
+
+        <button type="button" class="category-btn" data-category="ie-manewry">
+          <span>Ie-1 — Manewry</span>
+          <small class="category-count"></small>
+        </button>
+
+        <button type="button" class="category-btn" data-category="dodatkowe">
+          <span>Pozostałe — ruch i bezpieczeństwo</span>
+          <small class="category-count"></small>
+        </button>
+      </div>
+    </div>
+
+    <div class="selected-box">
+      Wybrany test:
+      <strong id="selectedTest">Wszystkie działy</strong>
+      <div class="bank-info">Baza zawiera <strong id="totalCount"></strong> pytania.</div>
+    </div>
+
+    <button class="sbtn" id="startBtn" type="button">Rozpocznij nowy test</button>
+
+    <div id="resumePanel" class="resume-panel">
+      <p>Masz rozpoczęty test. <span id="resumeInfo"></span></p>
+      <div class="resume-actions">
+        <button type="button" id="resumeBtn" class="secondary-btn">Kontynuuj</button>
+        <button type="button" id="discardBtn" class="text-btn">Usuń zapis</button>
+      </div>
+    </div>
   </div>
 
   <div id="quiz">
@@ -44,18 +111,19 @@
 
     <div class="qtxt" id="qtxt"></div>
 
-    <div class="opts" id="opts"></div>
-
-    <div class="navBtns">
-    <button onclick="prevQ()">← Poprzednie</button>
-    <button onclick="nextQ()">Następne →</button>
+    <div class="imgbox empty" id="imgbox">
+      <img id="qimg" src="" alt="" />
+      <span id="emptyImageText" class="empty-image-text">Pytanie bez ilustracji</span>
     </div>
+
+    <div class="opts" id="opts"></div>
 
     <div class="expl" id="expl"></div>
 
-    <button class="nxt" id="nxt">
-      Następne pytanie &rarr;
-    </button>
+    <div class="navBtns">
+      <button id="prevBtn" type="button">← Poprzednie</button>
+      <button id="nextBtn" class="next" type="button">Następne →</button>
+    </div>
   </div>
 
   <div id="result">
@@ -80,9 +148,7 @@
       </div>
     </div>
 
-    <button class="rbtn" id="rbtn">
-      Zacznij od nowa
-    </button>
+    <button class="rbtn" id="rbtn" type="button">Wybierz nowy test</button>
 
     <div class="wlist" id="wlist"></div>
   </div>
