@@ -117,7 +117,8 @@ var Q = [
     ],
     c:0,
     e:"Semafor kształtowy nadaje sygnały odpowiednim położeniem ramion w dzień i dodatkowo światłem w nocy. (Ie-1 §4)"
-  }
+},
+
   {
 s:"Sygnalizacja kształtowa",
 q:"Jakie światło wsteczne odpowiada sygnałowi Sr 1 „Stój” na semaforze kształtowym?",
