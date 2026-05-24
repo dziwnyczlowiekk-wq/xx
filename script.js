@@ -308,7 +308,7 @@ e:"Zgodę wydaje dyżurny ruchu."
 {
 s:"Bezpieczeństwo",
 q:"Co oznacza zatrzymanie przed S1?",
-img:"s1.jpeg,
+img:"s1.jpeg",
 a:[
 "Bezwzględny zakaz jazdy",
 "Można jechać",
@@ -321,7 +321,7 @@ e:"S1 = zakaz jazdy."
 {
 s:"Semafory",
 q:"Ile świateł ma S2?",
-img:"s2.jpeg,
+img:"s2.jpeg",
 a:[
 "1 zielone",
 "2 czerwone",
