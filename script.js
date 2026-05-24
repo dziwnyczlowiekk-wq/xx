@@ -117,6 +117,177 @@ e:"Sr3 wykorzystuje dwa ramiona."
 /* ========== SEMAFORY ŚWIETLNE ========== */
 
 {
+s:"Ie-1 §2",
+q:"Do czego służy semafor świetlny?",
+a:[
+"Do podawania sygnałów regulujących ruch pociągów",
+"Do oświetlania torów w nocy",
+"Do oznaczania kilometrażu linii"
+],
+c:0,
+e:"Semafory świetlne służą do przekazywania sygnałów związanych z prowadzeniem ruchu kolejowego."
+},
+{
+s:"Ie-1 §3",
+q:"W jakiej odległości przed niebezpiecznym miejscem ustawia się semafor wjazdowy?",
+a:[
+"Droga hamowania przed miejscem niebezpiecznym",
+"50 metrów przed stacją",
+"Bezpośrednio przy rozjeździe"
+],
+c:0,
+e:"Semafor wjazdowy ustawia się w odległości odpowiadającej wymaganej drodze hamowania."
+},
+{
+s:"Ie-1 §3",
+q:"Co oznacza sygnał S1 na semaforze świetlnym?",
+img:"s1.jpeg",
+a:[
+"Stój",
+"Wolna droga",
+"Jazda manewrowa dozwolona"
+],
+c:0,
+e:"Sygnał S1 oznacza bezwzględny zakaz jazdy."
+},
+{
+s:"Ie-1 §3",
+q:"Co oznacza sygnał S2 na semaforze świetlnym?",
+img:"s2.jpeg",
+a:[
+"Wolna droga",
+"Stój",
+"Ograniczenie prędkości do 20 km/h"
+],
+c:0,
+e:"S2 zezwala na jazdę z największą dozwoloną prędkością."
+},
+{
+s:"Ie-1 §3",
+q:"Który sygnał oznacza 'Wolna droga, a następny semafor wskazuje Stój'?",
+a:[
+"S3",
+"S5",
+"S10"
+],
+c:0,
+e:"S3 ostrzega maszynistę, że kolejny semafor wskazuje sygnał S1."
+},
+{
+s:"Ie-1 §3",
+q:"Co oznacza sygnał S4?",
+img:"s4.jpeg",
+a:[
+"Wolna droga ze zmniejszoną prędkością",
+"Stój",
+"Jazda manewrowa zabroniona"
+],
+c:0,
+e:"S4 pozwala jechać ze zmniejszoną prędkością określoną w przepisach."
+},
+{
+s:"Ie-1 §3",
+q:"Jaki kolor światła jest podstawowym sygnałem zakazu jazdy na semaforze świetlnym?",
+a:[
+"Czerwony",
+"Zielony",
+"Biały"
+],
+c:0,
+e:"Światło czerwone oznacza sygnał 'Stój'."
+},
+{
+s:"Ie-1 §3",
+q:"Co oznacza sygnał Sz?",
+a:[
+"Sygnał zastępczy",
+"Sygnał końca pociągu",
+"Sygnał ostrzegawczy"
+],
+c:0,
+e:"Sygnał Sz zezwala na jazdę obok semafora wskazującego S1 na określonych zasadach."
+},
+{
+s:"Ie-1 §3",
+q:"Jakiego koloru światło wykorzystuje sygnał zastępczy Sz?",
+a:[
+"Białe migające",
+"Zielone ciągłe",
+"Niebieskie"
+],
+c:0,
+e:"Sygnał zastępczy podawany jest białym migającym światłem."
+},
+{
+s:"Ie-1 §3",
+q:"Co oznacza sygnał S5?",
+img:"s5.jpeg",
+a:[
+"Wolna droga ze zmniejszoną prędkością, a następny semafor wskazuje Stój",
+"Wolna droga",
+"Jazda manewrowa dozwolona"
+],
+c:0,
+e:"S5 nakazuje jazdę ze zmniejszoną prędkością i ostrzega o sygnale S1 na następnym semaforze."
+},
+{
+s:"Ie-1 §3",
+q:"Jakie światło oznacza zwykle wolną drogę na semaforze?",
+a:[
+"Zielone",
+"Czerwone",
+"Niebieskie"
+],
+c:0,
+e:"Światło zielone oznacza zezwolenie na jazdę."
+},
+{
+s:"Ie-1 §3",
+q:"Co oznacza sygnał S10?",
+img:"s10.jpeg",
+a:[
+"Wolna droga z ograniczoną prędkością, a następny semafor wskazuje jazdę ze zmniejszoną prędkością",
+"Stój",
+"Jazda z największą prędkością"
+],
+c:0,
+e:"S10 informuje o ograniczeniu prędkości oraz wskazaniu następnego semafora."
+},
+{
+s:"Ie-1 §3",
+q:"Do czego służy semafor wyjazdowy?",
+a:[
+"Do zezwalania na wyjazd pociągu ze stacji na szlak",
+"Do sterowania manewrami",
+"Do oznaczania końca toru"
+],
+c:0,
+e:"Semafor wyjazdowy reguluje wyjazd pociągu ze stacji."
+},
+{
+s:"Ie-1 §3",
+q:"Gdzie ustawia się semafor wyjazdowy?",
+a:[
+"Przy końcu drogi przebiegu wyjazdowego",
+"Na środku stacji",
+"Przed przejazdem kolejowym"
+],
+c:0,
+e:"Semafor wyjazdowy ustawia się przy końcu drogi przebiegu wyjazdowego."
+},
+{
+s:"Ie-1 §3",
+q:"Co oznacza sygnał SE?",
+img:"se.jpeg",
+a:[
+"Jazda zgodnie ze wskazaniami systemu ERTMS/ETCS",
+"Stój i oczekiwanie",
+"Sygnał alarmowy"
+],
+c:0,
+e:"SE odnosi się do prowadzenia ruchu w systemie ERTMS/ETCS."
+},
+{
 s:"Semafory świetlne",
 q:"Co oznacza S1?",
 img:"s1.jpeg",
@@ -158,6 +329,7 @@ e:"S3 = Jazda z największą dozwoloną prędkością w przodzie są dwa odstęp
 {
 s:"Semafory świetlne",
 q:"Co oznacza S5?",
+img:"s5.jpeg",
 a:[
 "Stój na następnym",
 "100 km/h",
@@ -170,6 +342,7 @@ e:"S5 informuje o sygnale Stój na następnym semaforze."
 {
 s:"Semafory świetlne",
 q:"Co oznacza S7?",
+img:"s7.jpeg",
 a:[
 "100 km/h i kolejny 100",
 "Stój",
@@ -182,6 +355,7 @@ e:"S7 = 100 km/h i kolejny 100 km/h."
 {
 s:"Semafory świetlne",
 q:"Co oznacza S9?",
+img:"s9.jpeg",
 a:[
 "100 km/h i Stój",
 "200 km/h",
@@ -194,6 +368,7 @@ e:"S9 = 100 km/h i następny Stój."
 {
 s:"Semafory świetlne",
 q:"Co oznacza S10?",
+img:"s10.jpeg",
 a:[
 "40 km/h",
 "60 km/h",
@@ -206,6 +381,7 @@ e:"S10 = 40 km/h."
 {
 s:"Semafory świetlne",
 q:"Co oznacza S10a?",
+img:"s10a.jpeg",
 a:[
 "40 km/h",
 "60 km/h",
@@ -218,6 +394,7 @@ e:"S10a = 60 km/h."
 {
 s:"Semafory świetlne",
 q:"Co oznacza sygnał Sz?",
+img:"sz.jpeg",
 a:[
 "Stój",
 "Jazda do 40 km/h bez rozkazu",
@@ -227,11 +404,186 @@ c:1,
 e:"Sz = jazda zastępcza."
 },
 
+/* ========== SYGNALIZATORY POWTARZAJĄCE ========== */
+
+{
+s:"Ie-1 §3",
+q:"Do czego służy sygnalizator powtarzający?",
+a:[
+"Do powtarzania wskazań semafora, gdy jego widoczność jest niewystarczająca",
+"Do prowadzenia ruchu manewrowego",
+"Do osłony przejazdu kolejowo-drogowego"
+],
+c:0,
+e:"Sygnalizator powtarzający uprzedza maszynistę o wskazaniu semafora."
+},
+{
+s:"Ie-1 §3",
+q:"Jak oznacza się sygnalizator powtarzający?",
+a:[
+'Literą "P"',
+'Literami "Sp"',
+'Literami "To"'
+],
+c:1,
+e:"Sygnalizatory powtarzające oznacza się skrótem Sp."
+},
+{
+s:"Ie-1 §3",
+q:"Kiedy stosuje się sygnalizator powtarzający?",
+a:[
+"Gdy semafor jest ustawiony przed przejazdem kolejowym",
+"Gdy widoczność semafora jest niewystarczająca",
+"Gdy tor znajduje się na łuku"
+],
+c:1,
+e:"Powtarzacze stosuje się przy niewystarczającej widoczności semafora."
+},
+{
+s:"Ie-1 §3",
+q:"Czy sygnalizator powtarzający jest samodzielnym sygnałem zezwalającym na jazdę?",
+a:[
+"Tak",
+"Tylko na liniach lokalnych",
+"Nie"
+],
+c:2,
+e:"Powtarzacz jedynie informuje o wskazaniu semafora."
+},
+{
+s:"Ie-1 §3",
+q:"Co oznacza sygnał Sp1?",
+img:"sp1.jpeg",
+a:[
+"Powtarzacz wskazuje sygnał zabraniający jazdy",
+"Powtarzacz wskazuje jazdę ze zmniejszoną prędkością",
+"Powtarzacz wskazuje wolną drogę"
+],
+c:0,
+e:"Sp1 oznacza, że semafor wskazuje sygnał zabraniający jazdy."
+},
+{
+s:"Ie-1 §3",
+q:"Co oznacza sygnał Sp2?",
+img:"sp2.jpeg",
+a:[
+"Powtarzacz wskazuje sygnał zezwalający na jazdę",
+"Powtarzacz wskazuje sygnał zastępczy",
+"Powtarzacz wskazuje sygnał manewrowy"
+],
+c:0,
+e:"Sp2 oznacza wskazanie semafora zezwalające na jazdę."
+},
+{
+s:"Ie-1 §3",
+q:"Co oznacza sygnał Sp3?",
+img:"sp3.jpeg",
+a:[
+"Powtarzacz wskazuje sygnał zezwalający na jazdę ze zmniejszoną prędkością",
+"Powtarzacz wskazuje sygnał zastępczy",
+"Powtarzacz wskazuje Stój"
+],
+c:0,
+e:"Sp3 informuje o jeździe ze zmniejszoną prędkością."
+},
+{
+s:"Ie-1 §3",
+q:"Jakie światło stosuje sygnalizator powtarzający?",
+a:[
+"Światło białe",
+"Światło zielone",
+"Światło niebieskie"
+],
+c:0,
+e:"Sygnalizatory powtarzające wykorzystują światła białe."
+},
+{
+s:"Ie-1 §3",
+q:"Jak podawany jest sygnał Sp1?",
+img:"sp1.jpeg",
+a:[
+"Dwoma światłami białymi",
+"Jednym światłem białym migającym",
+"Jednym światłem czerwonym"
+],
+c:1,
+e:"Sp1 podawany jest jednym białym światłem migającym."
+},
+{
+s:"Ie-1 §3",
+q:"Jak podawany jest sygnał Sp2?",
+img:"sp2.jpeg",
+a:[
+"Trzema światłami białymi",
+"Dwoma światłami białymi migającymi",
+"Jednym światłem zielonym"
+],
+c:1,
+e:"Sp2 podawany jest dwoma białymi światłami migającymi."
+},
+{
+s:"Ie-1 §3",
+q:"Jak podawany jest sygnał Sp3?",
+img:"sp3.jpeg",
+a:[
+"Jednym światłem białym ciągłym",
+"Trzema światłami białymi migającymi",
+"Dwoma światłami pomarańczowymi"
+],
+c:1,
+e:"Sp3 podawany jest trzema białymi światłami migającymi."
+},
+{
+s:"Ie-1 §3",
+q:"Do którego urządzenia odnosi się sygnalizator powtarzający?",
+a:[
+"Do konkretnego semafora",
+"Do rozjazdu",
+"Do tarczy manewrowej"
+],
+c:0,
+e:"Każdy powtarzacz przypisany jest do określonego semafora."
+},
+{
+s:"Ie-1 §3",
+q:"Czy sygnalizator powtarzający zastępuje semafor?",
+a:[
+"Tylko przy manewrach",
+"Tak",
+"Nie"
+],
+c:2,
+e:"Powtarzacz nie zastępuje semafora i nie daje samodzielnego zezwolenia."
+},
+{
+s:"Ie-1 §3",
+q:"Gdzie najczęściej ustawia się sygnalizator powtarzający?",
+a:[
+"Przed semaforem o ograniczonej widoczności",
+"Na końcu toru stacyjnego",
+"Przy wskaźniku W5"
+],
+c:0,
+e:"Powtarzacze poprawiają widoczność wskazań semaforów."
+},
+{
+s:"Ie-1 §3",
+q:"Jaką funkcję pełni sygnalizator powtarzający?",
+a:[
+"Ostrzega o wskazaniu semafora",
+"Oznacza koniec szlaku",
+"Steruje urządzeniami SRK"
+],
+c:0,
+e:"Powtarzacz przekazuje wcześniej informację o wskazaniu semafora."
+},
+
 /* ========== TARCZE OSTRZEGAWCZE ========== */
 
 {
 s:"Tarcze ostrzegawcze",
 q:"Co oznacza tarcza On?",
+img:"ond.jpeg",
 a:[
 "Semafor w odległości hamowania",
 "Stój",
@@ -244,6 +596,7 @@ e:"On informuje o semaforze."
 {
 s:"Tarcze ostrzegawcze",
 q:"Co oznacza Ot2?",
+img:"ot2d.jpeg",
 a:[
 "Stój",
 "Wolna droga",
@@ -256,6 +609,7 @@ e:"Ot2 = wolna droga."
 {
 s:"Tarcze ostrzegawcze",
 q:"Co oznacza Od1?",
+img:"od1d.jpeg",
 a:[
 "Stój",
 "Jazda",
@@ -270,6 +624,7 @@ e:"Od1 = Stój."
 {
 s:"Manewry",
 q:"Czy S1 dotyczy manewrów?",
+img:"s1.jpeg",
 a:[
 "Tak",
 "Nie",
@@ -282,6 +637,7 @@ e:"S1 dotyczy pociągów i manewrów."
 {
 s:"Manewry",
 q:"Czy można minąć S1 bez pozwolenia?",
+img:"s1.jpeg",
 a:[
 "Tak zawsze",
 "Tylko z pozwoleniem",
