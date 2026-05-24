@@ -497,8 +497,8 @@ function answer(chosen){
   document.getElementById('nxt').style.display = 'block';
 }
 var img = document.getElementById('qimg');
-
-if(q.img){
+}
+  if(q.img){
   img.src = q.img;
   img.style.display = "block";
 } else {
