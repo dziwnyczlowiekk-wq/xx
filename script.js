@@ -118,6 +118,245 @@ var Q = [
     c:0,
     e:"Semafor kształtowy nadaje sygnały odpowiednim położeniem ramion w dzień i dodatkowo światłem w nocy. (Ie-1 §4)"
   }
+  {
+s:"Sygnalizacja kształtowa",
+q:"Jakie światło wsteczne odpowiada sygnałowi Sr 1 „Stój” na semaforze kształtowym?",
+a:[
+"Duże światło matowobiałe (górna latarnia)",
+"Zielone światło w dolnej latarni",
+"Wyłącznie czerwone światło migające"
+],
+c:0,
+e:"Dla Sr 1 stosuje się duże światło matowobiałe wstecz w górnej latarni (Ir-1 §4)."
+},
+
+{
+s:"Sygnalizacja kształtowa",
+q:"Co oznacza sygnał Sr 2 na semaforze kształtowym?",
+a:[
+"Zakaz jazdy – Stój",
+"Jazda ze zmniejszoną prędkością 40 km/h",
+"Jazda z największą dozwoloną prędkością"
+],
+c:2,
+e:"Sr 2 oznacza wolną drogę – jazdę z największą prędkością."
+},
+
+{
+s:"Semafory kształtowe",
+q:"Jak ustawione jest ramię semafora przy sygnale Sr 1?",
+a:[
+"Pod kątem 45° w górę",
+"Poziomo na prawo od masztu",
+"Poziomo w lewo od masztu"
+],
+c:1,
+e:"Sr 1 – ramię poziomo na prawo od masztu."
+},
+
+{
+s:"Semafory kształtowe",
+q:"Co oznacza sygnał Sr 3?",
+a:[
+"Jazda bez ograniczeń",
+"Jazda z prędkością do 40 km/h",
+"Zakaz jazdy"
+],
+c:1,
+e:"Sr 3 oznacza jazdę do 40 km/h."
+},
+
+{
+s:"Semafory świetlne",
+q:"Ile świateł może nadawać sygnał na semaforze świetlnym (standardowo)?",
+a:[
+"Jedno lub dwa światła w pionie",
+"Tylko jedno światło czerwone",
+"Zawsze trzy światła"
+],
+c:0,
+e:"Semafory świetlne używają jednego lub dwóch świateł w pionie."
+},
+
+{
+s:"Semafory świetlne",
+q:"Co oznacza sygnał S1?",
+a:[
+"Jazda z maksymalną prędkością",
+"Stój – zakaz jazdy",
+"Jazda ostrożna 100 km/h"
+],
+c:1,
+e:"S1 oznacza Stój."
+},
+
+{
+s:"Semafory świetlne",
+q:"Co oznacza sygnał S2?",
+a:[
+"Stój",
+"Jazda z największą dozwoloną prędkością",
+"Jazda 40 km/h"
+],
+c:1,
+e:"S2 = jazda z największą prędkością."
+},
+
+{
+s:"Semafory świetlne",
+q:"Co oznacza migające zielone światło (S3)?",
+a:[
+"Stój",
+"Jazda do 40 km/h",
+"Jazda z największą prędkością, ale z ostrzeżeniem o odstępach"
+],
+c:2,
+e:"S3 oznacza jazdę z ostrzeżeniem o odstępach i ograniczeniach."
+},
+
+{
+s:"Semafory świetlne",
+q:"Jakie ograniczenie prędkości daje sygnał S5?",
+a:[
+"Brak ograniczenia",
+"Ostrzeżenie o sygnale Stój",
+"40 km/h na całej trasie"
+],
+c:1,
+e:"S5 informuje o sygnale Stój na następnym semaforze."
+},
+
+{
+s:"Semafory świetlne",
+q:"Co oznacza S7?",
+a:[
+"100 km/h i następny semafor również 100 km/h",
+"Stój",
+"20 km/h"
+],
+c:0,
+e:"S7 = 100 km/h i kolejny semafor również 100 km/h."
+},
+
+{
+s:"Semafory świetlne",
+q:"Co oznacza S9?",
+a:[
+"Przyspieszenie do 120 km/h",
+"100 km/h i następny semafor Stój",
+"Brak sygnalizacji"
+],
+c:1,
+e:"S9 = 100 km/h i następny semafor Stój."
+},
+
+{
+s:"Semafory świetlne",
+q:"Sygnał S10 oznacza:",
+a:[
+"40 km/h",
+"60 km/h",
+"100 km/h"
+],
+c:0,
+e:"S10 = 40 km/h."
+},
+
+{
+s:"Semafory świetlne",
+q:"Sygnał S10a oznacza:",
+a:[
+"40 km/h",
+"60 km/h",
+"80 km/h"
+],
+c:1,
+e:"S10a = 60 km/h."
+},
+
+{
+s:"Semafory świetlne",
+q:"Co oznacza sygnał zastępczy Sz?",
+a:[
+"Zakaz jazdy",
+"Jazda bez rozkazu pisemnego z ograniczeniem do 40 km/h",
+"Przyspieszenie do 100 km/h"
+],
+c:1,
+e:"Sz pozwala jechać do 40 km/h."
+},
+
+{
+s:"ERTMS",
+q:"Co oznacza sygnał SE?",
+a:[
+"Jazda według ETCS",
+"Stój",
+"Awaria semafora"
+],
+c:0,
+e:"SE = jazda zgodnie z ERTMS/ETCS."
+},
+
+{
+s:"Tarcze ostrzegawcze",
+q:"Co oznacza tarcza On?",
+a:[
+"Stój",
+"Znajduje się semafor w odległości drogi hamowania",
+"Jazda 100 km/h"
+],
+c:1,
+e:"On informuje o semaforze w odległości drogi hamowania."
+},
+
+{
+s:"Tarcze ostrzegawcze",
+q:"Co oznacza Ot 2?",
+a:[
+"Stój",
+"Wolna droga (Sr2/Sr3)",
+"Awaria sygnału"
+],
+c:1,
+e:"Ot2 = wolna droga."
+},
+
+{
+s:"Tarcze ostrzegawcze",
+q:"Co oznacza sygnał Od 1?",
+a:[
+"Semafor wskazuje Stój",
+"Jazda 100 km/h",
+"Brak semafora"
+],
+c:0,
+e:"Od1 = Stój."
+},
+
+{
+s:"Manewry",
+q:"Czy sygnał S1 dotyczy manewrów?",
+a:[
+"Tak, zawsze",
+"Tylko pociągów",
+"Tylko w nocy"
+],
+c:0,
+e:"S1 dotyczy pociągów i manewrów."
+},
+
+{
+s:"Zatrzymanie",
+q:"Jak można ruszyć po zatrzymaniu przed S1 bez sygnału?",
+a:[
+"Dowolnie",
+"Tylko po rozkazie pisemnym lub sygnale zezwalającym",
+"Zawsze po 2 minutach"
+],
+c:1,
+e:"Ruch możliwy tylko po sygnale lub rozkazie."
+}
 ];
 
 var idx = 0;
