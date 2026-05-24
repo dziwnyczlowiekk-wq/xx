@@ -78,7 +78,7 @@ e:"Sr2 = wolna droga (największa prędkość)."
 {
 s:"Semafory kształtowe",
 q:"Co oznacza Sr 3?",
-img:"sr3d.jpeg,
+img:"sr3d.jpeg",
 a:[
 "Stój",
 "Jazda do 40 km/h",
@@ -91,7 +91,7 @@ e:"Sr3 = jazda do 40 km/h."
 {
 s:"Semafory kształtowe",
 q:"Jak ustawione jest ramię Sr1?",
-img:"sr1d.jpeg,
+img:"sr1d.jpeg",
 a:[
 "Poziomo w prawo",
 "45° w górę",
@@ -104,7 +104,7 @@ e:"Sr1 = ramię poziomo w prawo."
 {
 s:"Semafory kształtowe",
 q:"Ile ramion ma semafor kształtowy Sr3?",
-img:"sr3d.jpeg,
+img:"sr3d.jpeg",
 a:[
 "Jedno",
 "Dwa",
@@ -119,6 +119,7 @@ e:"Sr3 wykorzystuje dwa ramiona."
 {
 s:"Semafory świetlne",
 q:"Co oznacza S1?",
+img:"s1.jpeg",
 a:[
 "Stój",
 "Jazda",
@@ -131,6 +132,7 @@ e:"S1 = bezwzględny zakaz jazdy."
 {
 s:"Semafory świetlne",
 q:"Co oznacza S2?",
+img:"s2.jpeg",
 a:[
 "Stój",
 "Jazda z największą prędkością",
@@ -143,9 +145,13 @@ e:"S2 = jazda z największą prędkością."
 {
 s:"Semafory świetlne",
 q:"Co oznacza S3 (migające zielone)?",
+img:"s3.jpeg",
 a:[
 "Stój",
-"Ostrzeżenie + jazda",
+"Jazda z największą dozwoloną prędkością –
+w przodzie są dwa odstępy blokowe wolne – albo przy
+następnym semaforze z prędkością nie większą
+niż 100 km/h",
 "Manewry"
 ],
 c:1,
@@ -305,6 +311,7 @@ e:"Zgodę wydaje dyżurny ruchu."
 {
 s:"Bezpieczeństwo",
 q:"Co oznacza zatrzymanie przed S1?",
+img:"s1.jpeg,
 a:[
 "Bezwzględny zakaz jazdy",
 "Można jechać",
@@ -317,6 +324,7 @@ e:"S1 = zakaz jazdy."
 {
 s:"Semafory",
 q:"Ile świateł ma S2?",
+img:"s2.jpeg,
 a:[
 "1 zielone",
 "2 czerwone",
